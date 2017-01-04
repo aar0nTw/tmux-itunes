@@ -2,6 +2,10 @@
 
 Tmux plugin that display current track name from iTunes on your status bar.
 
+### Screenshot
+
+![](/screenshots/tmux-itunes.png)
+
 ### Usage
 
 Add `#{current_track}` format string to your existing `status-right` tmux
