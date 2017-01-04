@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
 
-current_track=$(osascript <<EOF
-tell application "iTunes"
-  return name of current track & " - " & artist of current track
-end tell
-EOF)
+CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+current_track="#($CURRENT_DIR/scripts/current_track.sh)"
 current_track_interpolation="\#{current_track}"
 
 get_tmux_option() {
