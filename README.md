@@ -24,6 +24,6 @@ Add plugin to the list of TPM plugins in `.tmux.conf`:
 
 Hit `prefix + I` to fetch the plugin and source it.
 
+### License
 
-
-
+[MIT](/LICENSE)
